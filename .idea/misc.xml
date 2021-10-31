@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Study/projectAndroid/androidStudioFirebasePhoneAuth/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/Study/projectAndroid/androidStudioFirebasePhoneAuth/app/src/main/res/layout/activity_dashoard.xml" value="0.25" />
         <entry key="..\:/Study/projectAndroid/androidStudioFirebasePhoneAuth/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Study/projectAndroid/androidStudioFirebasePhoneAuth/app/src/main/res/layout/activity_manage_opt.xml" value="0.25" />
       </map>
     </option>
   </component>
