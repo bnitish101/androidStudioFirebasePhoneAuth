@@ -7,7 +7,7 @@
     tools:context=".manageOPT">
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/et_enterOtp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.351" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_verifyOtp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="VERIFY AND SIGNIN"
@@ -29,6 +29,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/et_enterOtp"
         app:layout_constraintVertical_bias="0.188" />
 </androidx.constraintlayout.widget.ConstraintLayout>
