@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.hbb20.CountryCodePicker;
 
@@ -20,10 +21,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        et_mobile = (EditText) findViewById(R.id.et_mobile);
+
         ccp = (CountryCodePicker) findViewById(R.id.ccp);
         ccp.registerCarrierNumberEditText(et_mobile);
 
-        et_mobile = (EditText) findViewById(R.id.et_mobile);
         btn_getOtp = (Button) findViewById(R.id.btn_getOtp);
 
         btn_getOtp.setOnClickListener(new View.OnClickListener() {
