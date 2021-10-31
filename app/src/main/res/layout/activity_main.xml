@@ -12,14 +12,14 @@
         android:layout_height="43dp"
         android:layout_marginStart="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/t1"
+        app:layout_constraintEnd_toStartOf="@+id/et_mobile"
         app:layout_constraintHorizontal_bias="0.73"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.332"
         />
     <EditText
-        android:id="@+id/t1"
+        android:id="@+id/et_mobile"
         android:layout_width="200dp"
         android:layout_height="46dp"
         android:layout_marginStart="13dp"
@@ -36,7 +36,7 @@
         app:layout_constraintVertical_bias="0.332"
         />
     <Button
-        android:id="@+id/b1"
+        android:id="@+id/btn_getOtp"
         android:layout_width="171dp"
         android:layout_height="50dp"
         android:text="Get OTP"
